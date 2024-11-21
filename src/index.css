@@ -1,4 +1,15 @@
+/* .link>li[class*="active"] {
+  text-decoration: underline;
 
+}
+.link>li:hover {
+  position:relative;
+  text-decoration: underline;
+  z-index: 10;
+top: -5px;
+left: -3px;
+transition-duration: 200ms;
+} */
 
 @tailwind base;
 @tailwind components;

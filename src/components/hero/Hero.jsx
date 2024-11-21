@@ -10,7 +10,7 @@ const Hero = () => {
                         <p className="py-6 font-medium text-lg text-balance">
                         Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.
                         </p>
-                        <button className="btn btn-primary font-extrabold text-xl text-white">Get Started</button>
+                        <button className="btn btn-primary font-extrabold text-xl text-white bg-gradient-to-r from-[#8D80FE] to-[#BC71FF]">Get Started</button>
                     </div>
                 </div>
             </div>

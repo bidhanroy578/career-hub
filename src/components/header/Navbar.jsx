@@ -5,8 +5,8 @@ const Navbar = () => {
     let list = <>
         <li className="mr-4"><NavLink to='/'>Home</NavLink></li>
         <li className="mr-4"><NavLink to='/stat'>Statistics</NavLink></li>
-        <li className="mr-4"><NavLink to='applied'>Applied Jobs</NavLink></li>
-        <li className=""><NavLink to='blog'>blog</NavLink></li>
+        <li className="mr-4"><NavLink to='/applied'>Applied Jobs</NavLink></li>
+        <li className=""><NavLink to='/blog'>blog</NavLink></li>
     </>
 
     return (
@@ -38,13 +38,15 @@ const Navbar = () => {
                     <a className="btn btn-ghost text-xl">CareerHub</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                       
+                    <ul className="menu menu-horizontal px-1"> 
+                        {/* menu menu-horizontal */}
+                        {/* flex focus:underline focus:text-[#8B80FE] */}
+
                        {list}
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-primary">Start Applying</a>
+                    <a className="btn btn-primary font-extrabold text-xl text-white bg-gradient-to-r from-[#8D80FE] to-[#BC71FF]">Start Applying</a>
                 </div>
             </div>
         </div>
