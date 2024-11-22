@@ -7,12 +7,23 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Root from './root/Root';
+import JobDetail from './components/featuredJob/JobDetail';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    children:[
+      {
+        path: '/job/:id' ,
+        element: <JobDetail /> ,
+        loader: ( ) => fetch('/public/jobs.json')
+      }
+    ]
   },
+  {
+    
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(

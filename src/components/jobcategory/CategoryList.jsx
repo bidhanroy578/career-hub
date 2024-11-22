@@ -29,8 +29,8 @@ const CategoryList = () => {
     ]
     return (
         <div className="max-w-6xl mx-auto">
-            <h3 className="font-extrabold text-5xl">Job Category List</h3>
-            <p className="font-medium ">Explore thousands of job opportunities with all the information you need. Its your future</p>
+            <h3 className="font-extrabold text-5xl text-center">Job Category List</h3>
+            <p className="font-medium text-center">Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className="flex flex-wrap gap-5">
                 {
                     list.map(item =><List key={item.id} item={item}></List>)

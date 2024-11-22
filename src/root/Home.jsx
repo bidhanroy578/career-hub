@@ -1,13 +1,12 @@
-import { Outlet } from "react-router-dom";
 import Navbar from "../components/header/Navbar";
 import Footer from "../components/footer/Footer";
 import Hero from "../components/hero/Hero";
 import CategoryList from "../components/jobcategory/CategoryList";
 import FeaturedJob from "../components/featuredJob/FeaturedJob";
+import { Outlet } from "react-router-dom";
 
 
-
-const Root = () => {
+const Home = () => {
     return (
         <>
             <Navbar></Navbar>
@@ -23,4 +22,4 @@ const Root = () => {
     );
 };
 
-export default Root;
+export default Home;
