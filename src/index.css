@@ -1,3 +1,8 @@
+body{
+  background-color: white;
+  color: black
+}
+
 /* .link>li[class*="active"] {
   text-decoration: underline;
 
