@@ -5,7 +5,7 @@ const Navbar = () => {
     let list = <>
         <li className="mr-4"><NavLink to='/'>Home</NavLink></li>
         <li className="mr-4"><NavLink to='/stat'>Statistics</NavLink></li>
-        <li className="mr-4"><NavLink to='/applied'>Applied Jobs</NavLink></li>
+        <li className="mr-4"><NavLink to='/applied-jobs'>Applied Jobs</NavLink></li>
         <li className=""><NavLink to='/blog'>blog</NavLink></li>
     </>
 
